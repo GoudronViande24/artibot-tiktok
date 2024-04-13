@@ -1,0 +1,45 @@
+{
+  "name": "artibot-tiktok",
+  "version": "5.0.0",
+  "description": "Send TikTok posts notification to Discord with Artibot",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/",
+    "LICENSE",
+    "locales.json"
+  ],
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoudronViande24/artibot-tiktok.git"
+  },
+  "keywords": [
+    "tiktok",
+    "notifications",
+    "monitor",
+    "discord",
+    "artivain",
+    "artibot",
+    "api",
+    "post"
+  ],
+  "author": "GoudronViande24",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GoudronViande24/artibot-tiktok/issues"
+  },
+  "homepage": "https://github.com/GoudronViande24/artibot-tiktok#readme",
+  "dependencies": {
+    "artibot": "^5.0.0"
+  },
+  "devDependencies": {
+    "npm-check-updates": "^16.10.0",
+    "typescript": "^5.0.3"
+  }
+}
